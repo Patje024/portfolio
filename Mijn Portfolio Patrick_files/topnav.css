@@ -1,0 +1,103 @@
+
+/* navbar */
+.topnav img {
+	padding: 0;
+	display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+a.start {
+  float: left;
+  text-align: center;
+  display: block;
+}
+
+a.business {
+  float: left;
+  text-align: center;
+  display: block;
+}
+
+a.connection {
+  float: left;
+  text-align: center;
+  display: block;
+}
+
+a.technology {
+  float: left;
+  text-align: center;
+  display: block;
+}
+
+a.project {
+  float: left;
+  text-align: center;
+  display: block;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 26px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(245, 151, 30, 0.8);
+  color: #fff;
+}
+
+/* Add an active class to highlight the current page */
+.topnav div>a:hover,.topnav div>a:focus,.topnav div.active {
+  background-color: rgba(245, 151, 30, 0.8);
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1050px) {
+  .topnav a:not(none) {display: none;}
+  .topnav a.icon {
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1050px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .topnav.responsive div {
+    display: block;
+    text-align: center;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
