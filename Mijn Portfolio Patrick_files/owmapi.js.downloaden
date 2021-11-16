@@ -66,7 +66,7 @@ var today = day + ' ' + month + ' ' + year;
 
 	document.getElementById('description').innerHTML = description;
 	document.getElementById('temp').innerHTML = celcius + '&deg;C';
-	document.getElementById('location').innerHTML = d.name;
+	document.getElementById('location').innerHTML = 'Nijmegen';
 	document.getElementById('feels_like').innerHTML = celcius1 + '&deg;C';
 	document.getElementById('wind').innerHTML = d.wind.speed + ' m/s';
 	document.getElementById('humidity').innerHTML = d.main.humidity + '%';
