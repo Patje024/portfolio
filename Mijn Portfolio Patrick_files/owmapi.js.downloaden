@@ -1,7 +1,7 @@
 //OpenWeatherMap API Javafile
 function weatherBalloon( cityID ) {
 	var key = 'c52446526e902dfa769ec09bed957805';
-	fetch('https://api.openweathermap.org/data/2.5/weather?id=2759661&appid=af88e83bb4812d1b2466cf11de717b93')
+	fetch('https://api.openweathermap.org/data/2.5/weather?lat=51.812565&lon=5.837226&appid=c52446526e902dfa769ec09bed957805')
 	.then(function(resp) { return resp.json() }) // Convert data to json
 	.then(function(data) {
 	drawWeather(data); // Call drawWeather
