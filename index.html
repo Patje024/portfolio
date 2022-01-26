@@ -1,812 +1,293 @@
-
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Mijn Portfolio</title>
-    <link rel="stylesheet" href="./Mijn Portfolio Patrick_files/font-awesome.min.css">
-    <link href="./Mijn Portfolio Patrick_files/css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./Mijn Portfolio Patrick_files/style.css">
-    <link rel="stylesheet" type="text/css" href="./Mijn Portfolio Patrick_files/topnav.css">
-    <link rel="stylesheet" type="text/css" href="./Mijn Portfolio Patrick_files/horizontaalscrollen.css">
-    <link rel="stylesheet" type="text/css" href="./Mijn Portfolio Patrick_files/slideshow.css">
-    <link rel="stylesheet" type="text/css" href="./Mijn Portfolio Patrick_files/owmapi.css">
-    <script src="./Mijn Portfolio Patrick_files/java.js.downloaden"></script>
-    <script src="./Mijn Portfolio Patrick_files/slideshow.js.downloaden"></script>
-    <script src="./Mijn Portfolio Patrick_files/covid19.js.downloaden"></script>
-    <script src="./Mijn Portfolio Patrick_files/owmapi.js.downloaden"></script>
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<!-- DIT IS GEMAAKT DOOR PATRICK LUTGENS -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <title>
+    Patrick Lutgens
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="./assets/css/soft-design-system.css?v=1.0.5" rel="stylesheet" />
 </head>
 
-<body>
-
-    <div id="main">
-nu (bars) on small screens -->
-    <div class="topnav" id="myTopnav">
-        <img src="./Mijn Portfolio Patrick_files/msi.png" height="75px">
-
-        <div>
-            <div><a href="https://patje024.github.io/portfolio/#welkom"><i class="fa fa-fw fa-home"></i> Welkom</a></div>
-            <div><a href="https://patje024.github.io/portfolio/#start"><i class="fa fa-flag"></i> Start</a></div>
-            <div><a href="https://patje024.github.io/portfolio/#business"><i class="fa fa-handshake-o"></i> Business</a></div>
-            <div><a href="https://patje024.github.io/portfolio/#connection"><i class="fa fa-code"></i> Connection</a></div>
-            <div><a href="https://patje024.github.io/portfolio/#technology"><i class="fa fa-cog"></i> Technology</a></div>
-            <div><a href="https://patje024.github.io/portfolio/#project"><i class="fa fa-microchip"></i> Project</a></div>
-            
-            
-        </div>
-
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+<body class="presentation-page">
+  <!-- Navbar -->
+  <div class="container position-sticky z-index-sticky top-0">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+          <div class="container-fluid px-0">
+            <a href="./index.html" class="navbar-brand font-weight-bolder ms-sm-3" href="#" rel="tooltip" title="Patrick Lutgens's portfolio" data-placement="bottom" target="_blank">
+              Patrick Lutgens
+            </a>
+            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon mt-2">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
+              <ul class="navbar-nav navbar-nav-hover ms-lg-12 ps-lg-5 w-100">
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a href="./ss.html" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuBlocks">
+                    Smart Start
+                  </a>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a href="sb.html" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuBlocks">
+                    Smart Business
+                  </a>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a href="sc.html" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuBlocks">
+                    Smart Connection
+                  </a>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a href="st.html" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuBlocks">
+                    Smart Technology
+                  </a>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a href="sp.html" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuBlocks">
+                    Smart Project
+                  </a>
+                </li>
+                <li class="nav-item ms-lg-auto">
+                  <a class="nav-link nav-link-icon me-2" href="https://github.com/Patje024" target="_blank">
+                    <i class="fa fa-github me-1"></i>
+                    <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Check out my Github">Github</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- End Navbar -->
+      </div>
     </div>
-
-    <div id="welkom" style="padding-top: 95px"></div>
-    <div class="app">
-        <ul class="hs">
-            <li class="item">
-                <h1 style="margin-bottom: 15px;">Welkom bij mijn portfolio</h1>
-
-                <video class="right" style="width: 61%; margin: 5px;" controls="">
-                    <source src="images/hello-world.mp4" type="video/mp4">
-                </video>
-
-                <p>Welkom bij mijn portfolio, ik ben Patrick Lutgens in dit portfolio toon ik het werk uitgevoerd tijdens de minor Smart Industry. Dit portfolio behandeld per vak de uitgevoerde werkzaamheden. Veel van de afbeeldingen bevatten een link met daar achter een bestand. Om bij dit bestand te komen kunt u op de desbetreffende afbeelding klikken. Hiernaast staat een video, in deze video stel ik mijzelf verder voor en vertel mijn leerdoelen.</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Ervaring Minor Smart Industry</h2>
-                <img class="left" src="./Mijn Portfolio Patrick_files/bedankt.jpg">
-                <p>De Minor Smart Industry heeft voor mij nieuwe deuren geopend en inzichten gegeven. Ik heb veel dingen geleerd waar ik voorheen totaal geen kennis van had, zoals een website programmeren in html of een IoT schakeling programmeren in Python. Al deze onderdelen dragen bij aan mijn vooraf opgestelde persoonlijke leerdoelen, zo beschik ik na deze minor over vakjargon betreft Smart Industry en wat het precies inhoud. Ook weet ik nu hoe het binnen een bedrijf toegepast kan worden. Dit zal dan ook later erg van pas komen in de samenwerking als account of projectmanager met ICT afdelingen.</p>
-
-                <p>Voor de Minor wil ik graag alle docenten die er onderdeel van uit maken bedanken. Ook wil ik alle medestudenten bedanken voor de leuke en leerzamen tijd en de openheid en bereidbaarheid die iedereen had om elkaar te helpen als dat nodig was. Ook wil ik de bedrijven bedanken die ons geholpen en ondersteund hebben tijdens de minor en projecten. In het bijzonder wil ik ook Michiel van Popering bedanken voor de enorm goede begeleiding en ondersteuning tijdens dit project. Hij heeft ons enorm geholpen en stond open voor allerlei ideeën die wij hadden.</p>
-
-                <p>Als laatste wil ik mijn drie groepsgenoten bedanken voor de leuke en leerzame tijd. .</p>
-            </li>
-        </ul>
-
-        <div id="start" style="padding-top: 75px"></div>
-        <ul class="hs">
-            <li class="item">
-                <h1 style="fmargin-bottom: 15px;">Smart Start</h1>
-                <img class="left" src="./Mijn Portfolio Patrick_files/start.jpg">
-                <p>Smart Start was de introductie van Smart Industry en wat het allemaal inhoud. De basisprincipes en beginselen van het portfolio zijn hier ontstaan. Er is niet een specifiek iets geleerd maar functioneerde als assistentie van de andere vakken. De Businesscase wordt hierna behandeld i.v.m. de competenties. De zelfreflectie heb ik ook bij dit vak gemeld om die reden.</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Businesscase</h2>
-                <a class="image" href="https://minorsmart.github.io/portfolio-Mathys97/portfolio/documents/businesscase.pdf" target="_blank"><img class="right" style="width: 60%" src="./Mijn Portfolio Patrick_files/showcase.jpg"></a>
-                <p>Voor ASML is er onderzoek gedaan naar de virtuele communicatie binnen teams. Uit dit onderzoek zijn er een aantal resultaten gebleken. Op basis van de resultaten is er een eventuele oplossing ontwikkeld in de vorm van een showcase. Hier is meer over te lezen bij Smart Project. In die showcase wordt er echter een coach nagebootst. Voor deze coach is er ook een Businesscase gemaakt. Deze is te vinden door op de afbeelding hier rechts te klikken! ⟶</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Zelfreflectie</h2>
-                <img class="left" src="./Mijn Portfolio Patrick_files/zelfreflectie.jpg">
-                <p>Voor de minor Smart Industry heb ik erg veel werk moeten verrichten. Dit werk heeft veel verschillende kwaliteiten van mij geëist, veel van die kwaliteiten had ik echter nog niet voor de minor. Eén van deze kwaliteiten is het opbouwen van een website door middel van HTML, CSS en Java. Ik had deze kwaliteiten nog niet, maar nu ik deze kennis wel heb ben ik ook van plan deze kennis te gebruiken. De minor was voor mij de laatste stap voor mijn afstuderen. Om deze reden heb ik een aantal dingen die goed gingen, en daarvoor ook tijdens mijn afstudeer opdracht wil voortzetten. Ook zijn er een aantal dingen die ik beter aan had moeten pakken.</p>
-                <table>
-                    <tbody><tr>
-                        <th>Voortzetten:</th>
-                        <th>Verbeteren:</th>
-                    </tr>
-                    <tr>
-                        <td>Heldere communicatie met opdrachtgever</td>
-                        <td>Strakker plannen</td>
-                    </tr>
-                    <tr>
-                        <td>Duidelijke opdracht</td>
-                        <td>Eerder beginnen met onderzoek</td>
-                    </tr>
-                    <tr>
-                        <td>Heldere wederzijdse verwachtingen</td>
-                        <td>Uitgebreider onderzoek doen naar eventuele oplossingen</td>
-                    </tr>
-                </tbody></table>
-            </li>
-        </ul>
-
-        <div id="business" style="padding-top: 75px"></div>
-        <ul class="hs">
-            <li class="item">
-                <h1 style="margin-bottom: 15px;">Smart Business</h1>
-                <img class="right" src="./Mijn Portfolio Patrick_files/business.jpg">
-                <p>Smart Business is het enige vak waar ik al wat vanaf wist voordat ik een les had gehad. Bij Smart business hebben we de basis beginselen van Bedrijfskunde behandeld. We hebben het gehad over onder andere bedrijfsprocessen, Lean management en andere bedrijfskundige onderwerpen. Daarnaast hebben we een gastcollege gehad van een medewerker van AXA verzekeringen en zijn we op bezoek geweest bij een bedrijf genaamd ELK. Scrol naar rechts om meer te weten te komen. ⟶</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Business Model Canvas ASML</h2>
-                <a class="image" href="https://next.canvanizer.com/canvas/rY38X7mfoMPbo" target="_blank"><img class="left" style="width: 60%" src="./Mijn Portfolio Patrick_files/bmcasml.jpg"></a>
-                <p>Voor Smart Business hebben ik en mijn groepsgenoten ter voorbereiding van één van de lessen een Business Model Canvas gemaakt van ASML. De Business Model Canvas behandeld alle ins en outs van ASML en hoe zij staat in de markt. In het BMC is onder andere te zien wat ASML doet, wie haar partners en/of klanten zijn etc. Neem een kijkje in de volledige versie door op de voorbeeldafbeelding te klikken! ⟵</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Businesscase</h2>
-                <a class="image" href="https://minorsmart.github.io/portfolio-Mathys97/portfolio/documents/businesscase.pdf" target="_blank"><img class="right" style="width: 60%" src="./Mijn Portfolio Patrick_files/showcase.jpg"></a>
-                <p>Voor ASML is er onderzoek gedaan naar de virtuele communicatie binnen teams. Uit dit onderzoek zijn er een aantal resultaten gebleken. Op basis van de resultaten is er een eventuele oplossing ontwikkeld in de vorm van een showcase. Hier is meer over te lezen bij Smart Project. In die showcase wordt er echter een coach nagebootst. Voor deze coach is er ook een Businesscase gemaakt. Deze is te vinden door op de afbeelding hier rechts te klikken! ⟶</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Gastcollege AXA verzekeringen</h2>
-                <div class="lcontainer">
-                    <!-- Full-width images with number text -->
-                    <div class="mySlides4" style="display: block;">
-                        <div class="numbertext">BMC AXA</div>
-                        <img src="./Mijn Portfolio Patrick_files/axa1.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides4">
-                        <div class="numbertext">Uitwerking casus</div>
-                        <img src="./Mijn Portfolio Patrick_files/axa2.jpg" style="width:100%">
-                    </div>
-
-                    <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides4(-1)">❮</a>
-                    <a class="next" onclick="plusSlides4(1)">❯</a>
-                </div>
-
-                <p>Tijdens één van de Smart Business lessen hebben we een gastcollege gehad van een medewerker van AXA verzekeringen. Tijdens deze les hebben we voor AXA in groepjes een Business Model Canvas gemaakt. Deze is te zien in de eerste afbeelding van de slideshow.</p>
-
-                <p>Na het maken van de BMC kregen we een casus om uit te werken, de casus was: "De WA verzekeringen van AXA in Turkije zijn niet winstgevend omdat de Turkse overheid een maximum bedrag heeft opgesteld voor de WA verzekering. Aan ons werd gevraagd om smart oplossingen te bedenken om deze verzekering alsnog winstgevend te maken."</p>
-
-                <p>Het groepje waar ik onderdeel van uit maakte had een bedrijfskundige aanpak genomen om te kijken hoe het probleem opgelost kan worden. Omdat de prijs van de verzekeringen niet omhoog kon, waren er slechts twee opties om het rendement van de verzekeringen te verhogen. Deze opties waren de verlaging van de kosten of het verhogen van het beleggingsrendement. Deze laatste leek ons geen valide optie om te onderzoeken, dus was onze aanpak om te kijken hoe Smart Industry de kosten van de verzekeringen kan verlagen. De kosten van de verzekeringen bestaan uit drie onderdelen, de kosten van de agenten, uitkeringen (80%) en de vaste kosten (20%). De kosten die aan de agenten zitten is niet te controleren, dit heeft te maken met de manier waarop verzekering geregeld worden in Turkije. Dat was de reden dat de optie van een Smart Agent hebben bedacht. Hier is meer over te zien in de tweede afbeelding van de slideshow. Ook hebben we een oplossing bedacht voor de uitkeringen. Ook deze is te vinden in de tweede afbeelding van de slideshow.</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Bedrijfsbezoek ELK</h2>
-                <div class="rcontainer">
-                    <!-- Full-width images with number text -->
-                    <div class="mySlides3" style="display: block;">
-                        <div class="numbertext">Casus 1</div>
-                        <img src="./Mijn Portfolio Patrick_files/elk1.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides3">
-                        <div class="numbertext">Uitwerking casus 1</div>
-                        <img src="./Mijn Portfolio Patrick_files/elk2.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides3">
-                        <div class="numbertext">Bedrijfsstrategie ELK</div>
-                        <img src="./Mijn Portfolio Patrick_files/elk3.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides3">
-                        <div class="numbertext">ELK Renovatieproces 1</div>
-                        <img src="./Mijn Portfolio Patrick_files/elk4.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides3">
-                        <div class="numbertext">ELK Renovatieproces 2</div>
-                        <img src="./Mijn Portfolio Patrick_files/elk5.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides3">
-                        <div class="numbertext">ELK Renovatieproces 3</div>
-                        <img src="./Mijn Portfolio Patrick_files/elk6.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides3">
-                        <div class="numbertext">ELK Renovatieproces 4</div>
-                        <img src="./Mijn Portfolio Patrick_files/elk7.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides3">
-                        <div class="numbertext">ELK Renovatieproces 5</div>
-                        <img src="./Mijn Portfolio Patrick_files/elk8.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides3">
-                        <div class="numbertext">ELK Presentatie</div>
-                        <a class="image" href="https://minorsmart.github.io/portfolio-Mathys97/portfolio/documents/elk.pptx" target="_blank"><img src="./Mijn Portfolio Patrick_files/elkpptx.jpg" style="width:100%"></a>
-                    </div>
-
-                    <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides3(-1)">❮</a>
-                    <a class="next" onclick="plusSlides3(1)">❯</a>
-                </div>
-                <p>Op 11 maart 2020 zijn we bij ELK geweest. ELK is een bedrijf dat onderhoud pleegt aan onroerend goed, met name gebouwen die bij coöperaties en bedrijven horen. Tijdens ons bezoek legde ze uit dat ze bij ELK gebruik maken van de LEAN-methode. Het was heel duidelijk dat ze hier gebruik van maken omdat bij elke ruimte in het gebouw een planning hing. Ik was zelf al bekend met Lean door mijn opleiding. Wat ik erg bijzonder vond was de hoeveelheid uitgeschreven bedrijfsprocessen. Deze hingen overal rond en zijn terug te vinden in de slideshow. Na een beeld te hebben gekregen wat ELK doet was het tijd om een opdracht te maken. Hierbij was de bedoeling dat wij een smart innovatie bedachten voor verschillende onderwerpen. De casus die wij kregen was vitaliteit. De vraag was om te kijken hoe Smart Industry kan helpen bij de vitaliteit van de medewerkers van ELK. Het idee dat wij hebben bedacht is terug te vinden in de presentatie.</p>
-            </li>
-        </ul>
-
-        <div id="connection" style="padding-top: 75px"></div>
-        <ul class="hs">
-            <li class="item">
-                <h1 style="margin-bottom: 15px;">Smart Connection</h1>
-                <img class="left" src="./Mijn Portfolio Patrick_files/connection.jpg">
-                <p>Voor Smart Connection heb ik meerdere dingen gedaan. Van Smart Connection heb ik daardoor ook veel geleerd. Zo had ik nog nooit een website gebouwd door middel van HTML, CSS en Java codering. In het verleden heb ik wel een website met webshop gebouwd, maar dit was met behulp van een platform genaamd Jouwweb.nl. Naast de codering van de website zelf, heb ik binnen de codering erg veel verschillende elementen geleerd te programmeren. Deze elementen zijn:
-                    </p><table>
-                        <tbody><tr><td> - OpenWeatherMap API</td></tr>
-                        <tr><td> - COVID-19 API</td></tr>
-                        <tr><td> - Interactieve menubalk met behulp van Javascript</td></tr>
-                        <tr><td> - Slideshow voor meerdere foto's met behulp van Javascript</td></tr>
-                        <tr><td> - Horizontaal scrollen b=met behulp van Javascript</td></tr>
-                    </tbody></table><p></p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">OpenWeatherAPI Arnhem</h2>
-                <img class="right" src="./Mijn Portfolio Patrick_files/arnhem.jpg">
-                <div>
-                    <table id="weather">
-                        <tbody><tr><th id="location">Arnhem</th>
-                        <th id="date">16 november 2021</th>
-                        </tr><tr>
-                            <th>Clouds</th>
-                            <td id="description">mist</td>
-                        </tr>
-                        <tr>
-                            <th>Temperature</th>
-                            <td id="temp">5°C</td>
-                        </tr>
-                        <tr>
-                            <th>Feels Like</th>
-                            <td id="feels_like">5°C</td>
-                        </tr>
-                        <tr>
-                            <th>Wind Speed</th>
-                            <td id="wind">0.89 m/s</td>
-                        </tr>
-                        <tr>
-                            <th>Humidity</th>
-                            <td id="humidity">93%</td>
-                        </tr>
-                        <tr>
-                            <th>Sunrise</th>
-                            <td id="sunrise">7:58</td>
-                        </tr>
-                        <tr>
-                            <th>Sunset</th>
-                            <td id="sunset">16:44</td>
-                        </tr>
-                    </tbody></table>
-                </div>
-                
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">COVID-19 numbers in <span id="land"></span></h2>
-                <img class="left" src="./Mijn Portfolio Patrick_files/world.png">
-
-                <form>
-                    <select id="dropdown">
-                        <option>Selecteer een land</option>
-                        <option>------------------------------------------</option>
-                        <option value="119">Netherlands</option>
-                        <option>------------------------------------------</option>
-                        <option value="0">Afghanistan</option>
-                        <option value="1">Albania</option>
-                        <option value="2">Algeria</option>
-                        <option value="3">Andorra</option>
-                        <option value="4">Angola</option>
-                        <option value="5">Antigua and Barbuda</option>
-                        <option value="6">Argentina</option>
-                        <option value="7">Armenia</option>
-                        <option value="8">Australia</option>
-                        <option value="9">Austria</option>
-                        <option value="10">Azerbaijan</option>
-                        <option value="11">Bahamas</option>
-                        <option value="12">Bahrain</option>
-                        <option value="13">Bangladesh</option>
-                        <option value="14">Barbados</option>
-                        <option value="15">Belarus</option>
-                        <option value="16">Belgium</option>
-                        <option value="17">Belize</option>
-                        <option value="18">Benin</option>
-                        <option value="19">Bhutan</option>
-                        <option value="20">Bolivia</option>
-                        <option value="21">Bosnia and Herzegovina</option>
-                        <option value="22">Botswana</option>
-                        <option value="23">Brazil</option>
-                        <option value="24">Brunei Darussalam</option>
-                        <option value="25">Bulgaria</option>
-                        <option value="26">Burkina Faso</option>
-                        <option value="27">Burundi</option>
-                        <option value="28">Cambodia</option>
-                        <option value="29">Cameroon</option>
-                        <option value="30">Canada</option>
-                        <option value="31">Cape Verde</option>
-                        <option value="32">Central African Republic</option>
-                        <option value="33">Chad</option>
-                        <option value="34">Chile</option>
-                        <option value="35">China</option>
-                        <option value="36">Colombia</option>
-                        <option value="37">Comoros</option>
-                        <option value="38">Congo (Brazzaville)</option>
-                        <option value="39">Congo (Kinshasa)</option>
-                        <option value="40">Costa Rica</option>
-                        <option value="41">Croatia</option>
-                        <option value="42">Cuba</option>
-                        <option value="43">Cyprus</option>
-                        <option value="44">Czech Republic</option>
-                        <option value="45">Côte d'Ivoire</option>
-                        <option value="46">Denmark</option>
-                        <option value="47">Djibouti</option>
-                        <option value="48">Dominica</option>
-                        <option value="49">Dominican Republic</option>
-                        <option value="50">Ecuador</option>
-                        <option value="51">Egypt</option>
-                        <option value="52">El Salvador</option>
-                        <option value="53">Equatorial Guinea</option>
-                        <option value="54">Eritrea</option>
-                        <option value="55">Estonia</option>
-                        <option value="56">Ethiopia</option>
-                        <option value="57">Fiji</option>
-                        <option value="58">Finland</option>
-                        <option value="59">France</option>
-                        <option value="60">Gabon</option>
-                        <option value="61">Gambia</option>
-                        <option value="62">Georgia</option>
-                        <option value="63">Germany</option>
-                        <option value="64">Ghana</option>
-                        <option value="65">Greece</option>
-                        <option value="66">Grenada</option>
-                        <option value="67">Guatemala</option>
-                        <option value="68">Guinea</option>
-                        <option value="69">Guinea-Bissau</option>
-                        <option value="70">Guyana</option>
-                        <option value="71">Haiti</option>
-                        <option value="72">Holy See (Vatican City State)</option>
-                        <option value="73">Honduras</option>
-                        <option value="74">Hungary</option>
-                        <option value="75">Iceland</option>
-                        <option value="76">India</option>
-                        <option value="77">Indonesia</option>
-                        <option value="78">Iran, Islamic Republic of</option>
-                        <option value="79">Iraq</option>
-                        <option value="80">Ireland</option>
-                        <option value="81">Israel</option>
-                        <option value="82">Italy</option>
-                        <option value="83">Jamaica</option>
-                        <option value="84">Japan</option>
-                        <option value="85">Jordan</option>
-                        <option value="86">Kazakhstan</option>
-                        <option value="87">Kenya</option>
-                        <option value="88">Korea (South)</option>
-                        <option value="89">Kuwait</option>
-                        <option value="90">Kyrgyzstan</option>
-                        <option value="91">Lao PDR</option>
-                        <option value="92">Latvia</option>
-                        <option value="93">Lebanon</option>
-                        <option value="94">Lesotho</option>
-                        <option value="95">Liberia</option>
-                        <option value="96">Libya</option>
-                        <option value="97">Liechtenstein</option>
-                        <option value="98">Lithuania</option>
-                        <option value="99">Luxumbourgh</option>
-                        <option value="100">Macedonia, Republic of</option>
-                        <option value="101">Madagascar</option>
-                        <option value="102">Malawi</option>
-                        <option value="103">Malaysia</option>
-                        <option value="104">Maldives</option>
-                        <option value="105">Mali</option>
-                        <option value="106">Malta</option>
-                        <option value="107">Mauritania</option>
-                        <option value="108">Mauritius</option>
-                        <option value="109">Mexico</option>
-                        <option value="110">Moldova</option>
-                        <option value="111">Monaco</option>
-                        <option value="112">Mongolia</option>
-                        <option value="113">Montenegro</option>
-                        <option value="114">Morocco</option>
-                        <option value="115">Mozambique</option>
-                        <option value="116">Myanmar</option>
-                        <option value="117">Namibia</option>
-                        <option value="118">Nepal</option>
-                        <option value="119">Netherlands</option>
-                        <option value="120">New Zealand</option>
-                        <option value="121">Nicaragua</option>
-                        <option value="122">Niger</option>
-                        <option value="123">Nigeria</option>
-                        <option value="124">Norway</option>
-                        <option value="125">Oman</option>
-                        <option value="126">Pakistan</option>
-                        <option value="127">Palestinian Territory</option>
-                        <option value="128">Panama</option>
-                        <option value="129">Papua New Guinea</option>
-                        <option value="130">Paraguay</option>
-                        <option value="131">Peru</option>
-                        <option value="132">Philippines</option>
-                        <option value="133">Poland</option>
-                        <option value="134">Portugal</option>
-                        <option value="135">Qatar</option>
-                        <option value="136">Republic of Kosovo</option>
-                        <option value="137">Romania</option>
-                        <option value="138">Russian Federation</option>
-                        <option value="139">Rwanda</option>
-                        <option value="140">Saint Kitts and Nevis</option>
-                        <option value="141">Saint Lucia</option>
-                        <option value="142">Saint Vincent and Grenadines</option>
-                        <option value="143">San Marino</option>
-                        <option value="144">Sao Tome and Principe</option>
-                        <option value="145">Saudi Arabia</option>
-                        <option value="146">Senegal</option>
-                        <option value="147">Serbia</option>
-                        <option value="148">Sechelles</option>
-                        <option value="149">Sierra Leone</option>
-                        <option value="150">Singapore</option>
-                        <option value="151">Slovakia</option>
-                        <option value="152">Slovenia</option>
-                        <option value="153">Somalia</option>
-                        <option value="154">South Africa</option>
-                        <option value="155">South Sudan</option>
-                        <option value="156">Spain</option>
-                        <option value="157">Sri Lanka</option>
-                        <option value="158">Sudan</option>
-                        <option value="159">Suriname</option>
-                        <option value="160">Swaziland</option>
-                        <option value="161">Sweden</option>
-                        <option value="162">Switzerland</option>
-                        <option value="163">Syrian Arab Republic (Syria)</option>
-                        <option value="164">Taiwan, Republic of China</option>
-                        <option value="165">Tajikistan</option>
-                        <option value="166">Tanzania, United Republic of</option>
-                        <option value="167">Thailand</option>
-                        <option value="168">Timor-Leste</option>
-                        <option value="169">Togo</option>
-                        <option value="170">Trinidad and Tobago</option>
-                        <option value="171">Tunisia</option>
-                        <option value="172">Turkey</option>
-                        <option value="173">Uganda</option>
-                        <option value="174">Ukraine</option>
-                        <option value="175">United Arab Emirates</option>
-                        <option value="176">United Kingdom</option>
-                        <option value="177">United States of America</option>
-                        <option value="178">Uruguay</option>
-                        <option value="179">Uzbekistan</option>
-                        <option value="180">Venezuela (Bolivarian Republic)</option>
-                        <option value="181">Viet Nam</option>
-                        <option value="182">Western Sahara</option>
-                        <option value="183">Yemen</option>
-                        <option value="184">Zambia</option>
-                        <option value="185">Zimbabwe</option>
-                    </select>
-
-                    <button type="button" onclick="myFunction()">Bevestigen</button>
-                </form>
-
-                <table>
-                    <tbody><tr>
-                        <th class="table">Datum laatste update:</th>
-                        <th class="table">: <span id="datum"></span></th>
-                    </tr>
-                    <tr>
-                        <td class="table">Dodenaantal afgelopen 24uur:</td>
-                        <td class="table">: <span id="doden"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="table">Aantal besmettingen afgelopen 24uur:</td>
-                        <td class="table">: <span id="besmettingen"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="table">Aantal genezen afgelopen 24uur:</td>
-                        <td class="table">: <span id="genezen"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="table">Totaal aantal doden:</td>
-                        <td class="table">: <span id="totaaldoden"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="table">Totaal aantal besmettingen:</td>
-                        <td class="table">: <span id="totaalbesmettingen"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="table">Totaal aantal genezen:</td>
-                        <td class="table">: <span id="totaalgenezen"></span></td>
-                    </tr>
-                </tbody></table>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Voorbeeld Slideshow</h2>
-                <div class="rcontainer">
-                    <!-- Full-width images with number text -->
-                    <div class="mySlides5" style="display: block;">
-                        <div class="numbertext">Voorbeeld 1</div>
-                        <img src="./Mijn Portfolio Patrick_files/voorbeeld1.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides5">
-                        <div class="numbertext">Voorbeeld 2</div>
-                        <img src="./Mijn Portfolio Patrick_files/voorbeeld2.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides5">
-                        <div class="numbertext">HTML Code</div>
-                        <img src="./Mijn Portfolio Patrick_files/htmlslideshow.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides5">
-                        <div class="numbertext">CSS Style</div>
-                        <img src="./Mijn Portfolio Patrick_files/cssslideshow.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides5">
-                        <div class="numbertext">Javascript</div>
-                        <img src="./Mijn Portfolio Patrick_files/javaslideshow.jpg" style="width:100%">
-                    </div>
-
-                    <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides5(-1)">❮</a>
-                    <a class="next" onclick="plusSlides5(1)">❯</a>
-                </div>
-
-                <p>Voor het ontwerpen van deze website was de toevoeging van slideshows cruciaal. Dit omdat veel van de onderwerpen behandeld meer dan één foto hadden. De slideshows zijn een combinatie van HTML, CSS en Java. Hiernaast is een voorbeeld slideshow te zien. De eerste twee afbeeldingen zijn voorbeelden, de codering ervan is te zien op de derde, vierde en vijfde afbeelding. </p>
-            </li>
-        </ul>
-
-        <div id="technology" style="padding-top: 75px"></div>
-        <ul class="hs">
-            <li class="item">
-                <h1 style="margin-bottom: 15px;">Smart Technology</h1>
-                <img class="right" src="./Mijn Portfolio Patrick_files/technology.jpg">
-                <p>Smart Technology is het vak waar ik het meest naar uit keek van de hele Minor. Dit omdat ik nog nooit iets met programmeren of coderen gedaan heb. Dit en mijn interesse in technologie in het algemeen zorgde er voor dat ik dit vak erg leuk vond en er erg veel van geleerd heb. Het vak bestond uit een aantal onderdelen:
-                    </p><table>
-                        <tbody><tr>
-                            <td> - Opbouwen en aansluiten sensoren aan de ESP32</td>
-                        </tr>
-                        <tr>
-                            <td> - Ontwerpen van PCB voor ESP32 schakeling</td>
-                        </tr>
-                        <tr>
-                            <td> - Solderen sensoren en led's op PCB</td>
-                        </tr>
-                        <tr>
-                            <td> - 3D Printing opdracht</td>
-                        </tr>
-                    </tbody></table><p></p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">ESP32 opbouwen op het Breadboard</h2>
-                <div class="lcontainer">
-                    <!-- Full-width images with number text -->
-                    <div class="mySlides" style="display: block;">
-                        <div class="numbertext">ESP32 met LED's</div>
-                        <img src="./Mijn Portfolio Patrick_files/breakout1.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                        <div class="numbertext">LDR toegevoegd</div>
-                        <img src="./Mijn Portfolio Patrick_files/breakout2.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                        <div class="numbertext">DHT toegevoegd</div>
-                        <img src="./Mijn Portfolio Patrick_files/breakout3.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                        <div class="numbertext">RF transmitter toegevoegd</div>
-                        <img src="./Mijn Portfolio Patrick_files/breakout4.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                        <div class="numbertext">Soil Humidity Sensor toegevoegd</div>
-                        <img src="./Mijn Portfolio Patrick_files/breakout5.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                        <div class="numbertext">Relais toegevoegd</div>
-                        <img src="./Mijn Portfolio Patrick_files/breakout6.jpg" style="width:100%">
-                    </div>
-
-                    <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
-                </div>
-
-                <p>Bij Smart Technology begonnen we met een aantal basisfuncties voor de ESP32. In de slideshow hiernaast is te zien hoe ik eerst een aantal LED's had aangesloten, de + van de LED's op de individuele pins, en de - van de LED's via een gedeelde weerstand naar één van de GND aansluitingen op de ESP32.</p>
-
-                <p>Door de slideshow (klik op de oranje pijltjes om door de slideshow heen te navigeren) heen is te zien hoe er iedere keer een sensor of functie wordt toegevoegd. Eerst is de LDR toegevoegd, gevolgd door de DHT. Vervolgens is de RF transmitter toegevoegd, en als laatste zijn de Soil Humidity Sensor en het relais toegevoegd.</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Video LED disco</h2>
-
-                <div class="rcontainer" style="width: 57%;">
-                    <!-- Full-width images with number text -->
-                    <div class="mySlides6" style="display: block;">
-                        <div class="numbertext">LED Disco</div>
-                        <video class="right" style="width: 100%; margin: 5px;" controls="">
-                            <source src="images/leds.mp4" type="video/mp4">
-                            </video>
-                        </div>
-
-                    <div class="mySlides6">
-                        <div class="numbertext">LED Disco code</div>
-                        <img src="./Mijn Portfolio Patrick_files/codedisco.jpg" style="width:100%">
-                    </div>
-
-                    <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides6(-1)">❮</a>
-                    <a class="next" onclick="plusSlides6(1)">❯</a>
-                </div>
-
-                <p>In de eerste les van Smart Industry hebben we een ESP32 gekregen die we gingen gebruiken om onze IoT schakeling te maken. Eén van de eerste dingen die we met deze ESP32 gingen programmeren was het aan- en uitzetten van een LED. Dit heb ik verder genomen door een disco van LEDjes te maken, te zien in de video hiernaast. Ook is na de video de code te zien die de disco mogelijk maakte.</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">PCB ontwerpen</h2>
-                <div class="lcontainer">
-                    <!-- Full-width images with number text -->
-                    <div class="mySlides2" style="display: block;">
-                        <div class="numbertext">Eagle PCB Schematic</div>
-                        <img src="./Mijn Portfolio Patrick_files/pcbschematic.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides2">
-                        <div class="numbertext">Eagle PCB Board</div>
-                        <img src="./Mijn Portfolio Patrick_files/pcbboard.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides2">
-                        <div class="numbertext">PCB ontvangen!</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen1.jpg" style="width:100%">
-                    </div>
-
-                    <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides2(-1)">❮</a>
-                    <a class="next" onclick="plusSlides2(1)">❯</a>
-                </div>
-
-                <p>Bij het ontwerpen van de PCB wist ik niet echt wat ik moest verwachten. Dit omdat ik niet wist dat we dit gingen doen en ik geen flauw idee had hoe we dat gingen doen.</p>
-
-                <p>Tijdens de eerste les van PCB ontwerpen werd dus uitgelegd dat we dit gingen doen in een programma genaamd Eagle. In Eagle moesten we eerst een aantal bestanden importeren om de schakeling voor de ESP te kunnen tekenen. Na het importeren van de benodigde bestanden was het tijd om in Eagle het exacte elektriciteitsschema te tekenen, zodat we later de PCB konden ontwerpen. Het elektriciteitsschema wat ik heb ontworpen is te zien in de eerste afbeelding van de slideshow hiernaast.</p>
-
-                <p>Na het tekenen van het elektriciteitsschema was het tijd om de PCB zelf te ontwikkelen. Tijdens de les werd vermeld dat de PCB maximaal 10x10cm mocht zijn. Als je wilde mocht je hem kleiner maken, en daar heb ik gebruik van gemaakt. Ik heb namelijk die kans genomen om te kijken hoe klein ik de PCB kon maken zonder dat er leads in de ground layer aangebracht moesten worden. En dit is goed gelukt met een uiteindelijke afmeting van 55,9x45,15mm. De schematische tekening van de PCB in Eagle is te zien op de tweede foto van de slideshow. Op de derde foto is het resultaat van de moeite die ik gedaan had met het ontwerpen van de PCB.</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Solderen</h2>
-                <div class="rcontainer">
-                    <!-- Full-width images with number text -->
-                    <div class="mySlides1" style="display: block;">
-                        <div class="numbertext">PCB zonder componenten</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen1.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides1">
-                        <div class="numbertext">Weerstanden geplaatst</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen2.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides1">
-                        <div class="numbertext">PIN headers voor de ESP geplaatst</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen3.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides1">
-                        <div class="numbertext">LED's en PIN headers geplaatst</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen4.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides1">
-                        <div class="numbertext">LDR PIN header geplaatst</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen5.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides1">
-                        <div class="numbertext">LDR Geplaatst</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen6.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides1">
-                        <div class="numbertext">ESP geplaatst</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen7.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides1">
-                        <div class="numbertext">RF en DHT geplaatst</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen8.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides1">
-                        <div class="numbertext">RF en DHT zijwaarts</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen9.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides1">
-                        <div class="numbertext">SHS en Relais verbonden</div>
-                        <img src="./Mijn Portfolio Patrick_files/solderen10.jpg" style="width:100%">
-                    </div>
-
-                    <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides1(-1)">❮</a>
-                    <a class="next" onclick="plusSlides1(1)">❯</a>
-                </div>
-                <p>Het was niet de eerste keer dat ik heb gesoldeerd. Ik hobby soms nog wel eens wat en had hiervoor dus al een soldeerbout. Zo heb ik zelf een drone gebouwd en heb ik voor mijn RC auto hobby ook nog wel eens een aantal keren gesoldeerd.</p>
-                <p>Deze keer was het solderen echter wel anders, want het was de eerste keer dat ik iets moest solderen op een PCB. Dit had ik mijzelf ook niet makkelijk gemaakt door de PCB zo klein mogelijk te maken. Dit heeft er dan ook voor gezorgd dat mijn eerste poging tot solderen niet goed ging, wat resulteerde in een defecte LED. De tweede poging was echter wel goed en ik heb ook alles functionerend gekregen.</p>
-                <p>In de slideshow aan de rechter kant is in fases te zien hoe ik alle componenten op mijn PCB heb gesoldeerd! →</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Video Schakeling werkend</h2>
-
-                <div class="lcontainer">
-                    <!-- Full-width images with number text -->
-                    <div class="mySlides7" style="display: block;">
-                        <div class="numbertext">IoT schakeling</div>
-                        <a class="image" href="https://drive.google.com/file/d/10pTSdCJgWpr74jvltOKOz1QxQGsi-aee/view?usp=sharing" target="_blank"><img src="./Mijn Portfolio Patrick_files/schakeling.jpg" style="width:100%"></a>
-                        </div>
-
-                    <div class="mySlides7">
-                        <div class="numbertext">Terinal IoT schakeling</div>
-                            <a class="image" href="https://drive.google.com/file/d/1uvjWjiKnnP4lBywreB0erA-IcDCU2NK8/view?usp=sharing" target="_blank"><img src="./Mijn Portfolio Patrick_files/terminal.jpg" style="width:100%"></a>
-                        </div>
-
-                    <div class="mySlides7">
-                        <div class="numbertext">Code demo IoT schakeling</div>
-                        <a class="image" href="https://minorsmart.github.io/portfolio-Mathys97/portfolio/documents/demo-iot-schakeling.txt" target="_blank"><img src="./Mijn Portfolio Patrick_files/solderen10.jpg" style="width:100%"></a>
-                    </div>
-
-                    <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides7(-1)">❮</a>
-                    <a class="next" onclick="plusSlides7(1)">❯</a>
-                </div>
-                <p>In de filmpjes (in de link van de afbeeldingen) hiernaast is mijn IoT schakeling volledig werkend te zien. Het begint met het aangaan en verbinden met de wifi. Dit zijn de rode en witte LED's respectievelijk. Vervolgens is te zien hoe het dichterbij komen van de verlichting van de camera bij de LDR er voor zorgt dat de bureaulamp op de achtergrond uit gaat, en vervolgens weer aan als het licht van de camera niet meer direct op de LDR schijnt. Dit is ook op de PCB aangeduid met het gele LEDje. Ook is te zien dat er een groen LEDje aan is vanaf het moment dat de schakeling de eerste keer uit leest. Dit groene LEDje (wat helaas op de pcb zelf kapot was waardoor ik een ledje eronder heb bevestigd zodat dit filmpje opgenomen kon worden) geeft aan dat de grond voldoende vocht heeft, meer dan 50%. Dit kan ook kloppen want in het filmpje is te zien dat de SHS in een glas water hangt. Op het moment dat de SHS uit het water gehaald wordt, en dus een grondvochtigheid van 0% meet, gaat het groene LEDje direct uit. Vervolgens gaat er, met een vertraging, het relais aan, wat ook aangeduid wordt met het blauwe LEDje. Zodra de SHS weer in het glas wordt gehangen is direct te horen dat het relais uitschakelt. Vervolgens op een timer gaat even later het blauwe LEDje ook weer uit. Vervolgens is er te zien dat er een blanke LED wordt aangewezen. Dit is een warm-wit LEDje en die functioneert als temperatuur indicator die aan gaat op het moment dat de DHT een temperatuur meet van boven de 25 graden Celsius. Dit was lastig te demonstreren, maar een diepe adem op de DHT was voldoende. Vervolgens als de temperatuur van de DHT daalt, gaat dit LEDje weer uit en daarmee is de demonstratie klaar. In het filmpje erna is de terminal te zien van de demo uit het eerste filmpje. Als er op de laatste afbeelding geklikt wordt, opent er een bestand waarin de code te zien is die gebruikt is in de demonstratie.</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">3D Printing opdracht</h2>
-                <a class="image" href="https://minorsmart.github.io/portfolio-Mathys97/portfolio/documents/additive-manufacturing-asml.pdf" target="_blank"><img class="right" src="./Mijn Portfolio Patrick_files/carbon3d.jpg"></a>
-                <p>De 3D Printing opdracht. Deze opdracht is door COVID-19 niet gegaan zoals gepland. Het idee achter de 3D Printing opdracht, of eigenlijk cursus, was om te leren te werken met een 3D printer en om een behuizing te ontwerpen voor onze ESP32 schakeling.</p>
-                <p>Door COVID-19 is dit echter niet mogelijk geworden. Want om deze opdracht uit te voeren, was er toegang tot het fab-lab in Arnhem nodig, maar dat ging niet door. Dit was het als resultaat van de annulering van alle fysieke lessen in het hogere onderwijs i.v.m. COVID-19.</p>
-                <p>Omdat de 3D Printing lessen niet meer fysiek door konden gaan, is de opdracht veranderd. De theoretische lessen van 3D Printing zijn verschoven naar de digitale wereld, en de praktijkopdracht is veranderd naar en casus vorm. Deze casus is te vinden door op de afbeelding rechts te klikken. →</p>
-            </li>
-        </ul>
-
-        <div id="project" style="padding-top: 75px"></div>
-        <ul class="hs">
-            <li class="item">
-                <h1 style="margin-bottom: 15px;">Smart Project</h1>
-                <img class="left" src="./Mijn Portfolio Patrick_files/asml.jpg">
-                <p>Voor Smart Project heb ik, samen met drie andere die zo meteen geïntroduceerd worden, een project uitgevoerd voor ASML. ASML is een bedrijf werkzaam in de semiconductor markt. Zij ontwikkelen en verkopen de machines die grote bedrijven als Samsung en Apple gebruiken om printplaten te kunnen maken. ASML is een groot bedrijf met 60 verschillende locaties verdeeld over 16 landen en een totaal van bijna 25.000 medewerkers.</p>
-
-                <p>De vraag die ASML beantwoord wilde hebben luide: "Op welke wijze kan ASML haar communicatie binnen internationale teams door middel van “Smart Technology” verbeteren?"</p>
-
-                <p>Om deze vraag te beantwoorden hebben we onderzoek uitgevoerd en op basis van de resultaten een mogelijk idee als "Smart" oplossing al ontworpen in de vorm van een showcase. Meer informatie over het onderzoek en de showcase vind u rechts. →</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Team introductie</h2>
-                <img class="right" style="width: 50%" src="./Mijn Portfolio Patrick_files/voorstelslide.jpg">
-                <p>Dit is het team. We zijn een groep van vier studenten met vier verschillende achtergronden. Te beginnen met Daphne Otten, een Communication &amp; Multimedia Design studente van de HAN Arnhem. Als tweede teamlid hebben we Mark Paquaij, een Industrieel Product Ontwerp student van de HAN Arnhem. Als derde hebben we Bettine Willegenburg, een Human Resource Management studente van de HAN Nijmegen. En als laatste ben ik, een Bedrijfskunde student van de HAN Arnhem. Hiernaast is een foto te zien die wij hebben doorgestuurd naar de medewerkers die wij hebben geïnterviewd. Dit zodat zij wisten met wie ze te maken hadden.</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Adviesrapport voor ASML</h2>
-                <a class="image" href="https://minorsmart.github.io/portfolio-Mathys97/portfolio/documents/advisory-report-virtual-teams-asml.pdf" target="_blank"><img class="left" src="./Mijn Portfolio Patrick_files/advisoryreport.jpg"></a>
-                <p>De vraag die ASML bij ons had neergelegd als groep, vereiste een groot onderzoek om beantwoordt te worden. Dit onderzoek is onderverdeeld in twee delen, deskresearch en interviews. De resultaten uit deze onderzoeken zijn samengevoegd in een adviesrapport, te vinden door op de link hiernaast te klikken. ⟵</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Seminar video</h2>
-                <a class="image" href="https://drive.google.com/file/d/193dj2GWpB45SZjJalxAblg0VRvdhvl2X/view?usp=sharing" target="_blank"><img class="right" style="width: 61%" src="./Mijn Portfolio Patrick_files/seminarvideo.jpg"></a>
-                <p>Voor de seminar op 11 juni 2020 is er door de groep een video ontwikkeld die ons werk als groep heeft samengevat. Deze video is te vinden door hiernaast op de afbeelding te klikken! →</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Showcase</h2>
-                <a class="image" href="https://xd.adobe.com/view/85307fb4-3a83-48d3-53a1-8e8924c7196a-f301/?fullscreen" target="_blank"><img class="left" style="width: 61%" src="./Mijn Portfolio Patrick_files/showcase.jpg"></a>
-                <p>Als tastbaar product hebben wij als groep voor ASML een showcase ontwikkeld. Deze showcase vormt een beeld van een mogelijke oplossing voor het probleem waar ASML tegenaan loopt. Dit probleem is onder het kopje Resultaten adviesrapport behandeld. De showcase is ontwikkeld in Adobe XD en geeft een visueel beeld bij de coach die als oplossing gebruikt kan worden. Probeer de showcase zelf door op het voorbeeld te klikken! ⟵</p>
-            </li>
-
-            <li class="item">
-                <h2 style="margin-bottom: 15px;">Reflectie</h2>
-                <a class="image" href="https://minorsmart.github.io/portfolio-Mathys97/portfolio/documents/reflectie-smart-team-asml.pdf" target="_blank"><img class="right" src="./Mijn Portfolio Patrick_files/reflectie.jpg"></a>
-                <p>Na aanleiding van het project dat uitgevoerd is voor ASML hebben we als team samen gereflecteerd op het project. We hebben gereflecteerd op de samenwerking, onze verschillende achtergronden, de discussies die wij hebben gehad en nog veel meer. De complete reflectie is te vinden door te klikken op de afbeelding! →</p>
-            </li>
-        </ul>
+  </div>
+  <header class="header-2">
+    <div class="page-header min-vh-75 relative" style="background-image: url('./assets/img/curved-images/wall.jpeg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 text-center mx-auto">
+            <h1 class="text-white pt-3 mt-n5">Minor Smart Industry</h1>
+            <p class="lead text-white mt-3">Welkom de online portfiolio van <br /> Patrick Lutgens </p>
+          </div>
         </div>
+      </div>
+      <div class="position-absolute w-100 z-index-1 bottom-0">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="moving-waves">
+            <use xlink:href="#gentle-wave" x="48" y="-1" fill="rgba(255,255,255,0.40" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.35)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.25)" />
+            <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(255,255,255,0.20)" />
+            <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,0.15)" />
+            <use xlink:href="#gentle-wave" x="48" y="16" fill="rgba(255,255,255,0.95" />
+          </g>
+        </svg>
+      </div>
     </div>
-
-    <div style="padding: 25px;"></div>
-
-    <div id="page-container">
-
-        <div id="content-wrap">
-        <!-- all other page content -->
+  </header>
+  <section class="pt-3 pb-4" id="count-stats">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 z-index-2 border-radius-xl mt-n10 mx-auto py-3 blur shadow-blur">
+          <div class="row">
+            <iframe width="560" height="615" src="https://www.youtube.com/embed/ujINHYkE6zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
-
-        <footer class="footer"><div style="float: left;">Ontworpen door Mathys Kramer</div><a href="https://www.linkedin.com/in/mathys-kramer-1839831aa/" class="fa fa-linkedin"></a><a href="https://nl-nl.facebook.com/mathys.kramer" class="fa fa-facebook"></a><a href="https://www.instagram.com/mathyskramer/" class="fa fa-instagram"></a><div style="float: right;">Portfolio Minor Smart Industry</div></footer>
-        
+      </div>
     </div>
+  </section>
+  <section class="my-5 py-5">
+    <div class="accordion-1">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-md-6 mx-auto text-center">
+            <h2>Hello World!</h2>
+            <p>Een korte multimedia boodschap, waarin ik mijzelf voorstel aan de hand van een value propositon canvas. Deze bestaat uit twee delen het personal profile en de value map. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container mt-sm-5">
+    <div class="page-header min-vh-50 my-sm-3 mb-3 border-radius-xl" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg');">
+      <span class="mask bg-gradient-dark"></span>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 ms-lg-5">
+            <h4 class="text-white mb-0">~$ whoami</h4>
+            <h1 class="text-white">Patrick Lutgens</h1>
+            <p class="lead text-white opacity-8">Ik ben een student aan de Hogeschool van Arnhem en Nijmegen. Ik volg de Minor Smart Industry. Een vak waar geen ontkomen aan is in de toekomst, dit spreekt mij dan ook erg aan en is tevens waar dit portfiolio over gaat. In dit portfolio staan alle technical en non-technical skills die ik heb ontwikkeld tijdens de minor Smart Industry en reflecteer ik op wat ik allemaal heb geleerd. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="my-5 py-5">
+    <div class="accordion-1">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-md-12 mx-auto text-center">
+            <h2>Wat vind je allemaal in dit portfolio</h2>
+            <p>De Minor Smart Industry bestaat uit 5 compenenten, deze zijn Smart Start, Smart Business, Smart Connection, Smart Technology en Smart Project. Bij de onderstaande buttons staan deze kort omschreven en kan je naar de pagina navigeren om te zien wat mijn ervaringen waren tijdens deze minor en wat ik allemaal heb gemaakt en geleerd. Waaronder natuurlijk ook deze website!.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="accordion" id="accordionRental">
+              <div class="accordion-item mb-3">
+                  <div class="container mt-sm-5 mt-3">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="row">
+                          <div class="col-md-4 mt-md-0">
+                            <a href="/df">
+                              <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+                                <img class="w-100 my-auto" src="./assets/img/patrick/ss.jpg" alt="">
+                              </div>
+                              <div class="mt-2 ms-2">
+                                <h6 class="mb-0">Smart Start</h6>
+                                <p class="text-secondary text-sm">Hierin wordt aandacht besteed aan het doen van een goed kwalitatief onderzoek en persoonlijke ontwikkeling.</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-md-4 mt-md-0 mt-4">
+                            <a href="/disk">
+                              <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+                                <img class="w-100 my-auto" src="./assets/img/patrick/sb.jpg" alt="">
+                              </div>
+                              <div class="mt-2 ms-2">
+                                <h6 class="mb-0">Smart Business</h6>
+                                <p class="text-secondary text-sm">Het Businessmodelcanvas veranderen door het inzetten van Smart Business, een bedrijvenbezoek aan Elk, Kook excursie en een bezoek aan het Valklhof Museum te Nijmegen.</p>
+                              </div>
+                            </a>
+                          </div>            
+                          <div class="col-md-4 mt-md-0 mt-4">
+                            <a href="/os">
+                              <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+                                <img class="w-100 my-auto" src="./assets/img/patrick/sc.jpg" alt="">
+                              </div>
+                              <div class="mt-2 ms-2">
+                                <h6 class="mb-0">Smart Connection</h6>
+                                <p class="text-secondary text-sm">De eerste kennismaking met coderen HTML/CSS en API's waarvan de kennis is gebruikt voor het bouwen van deze website.</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-4 mt-md-0">
+                            <a href="/logging">
+                              <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+                                <img class="w-100 my-auto" src="./assets/img/patrick/st.jpg" alt="">
+                              </div>
+                              <div class="mt-2 ms-2">
+                                <h6 class="mb-0">Smart Technology</h6>
+                                <p class="text-secondary text-sm">Hardware, Visual Studio Code, Solid Works en Eagle. Zegt dit jou nu ook niks, kom snel kijken!.</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-md-4 mt-md-0 mt-4">
+                            <a href="/dc">
+                              <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+                                <img class="w-100 my-auto" src="./assets/img/patrick/sp.jpg" alt="">
+                              </div>
+                              <div class="mt-2 ms-2">
+                                <h6 class="mb-0">Smart Project</h6>
+                                <p class="text-secondary text-sm">Een leuk project van bij één van de vele opdrachtgevers binnen de minor Smart Industry.</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer pt-5 mt-5">
+    <hr class="horizontal dark mb-5">
+    <div class="container">
+      <div class=" row">
+        <div class="col-12">
+          <div class="text-center">
+            <p class="my-4 text-sm">
+              All rights reserved. Copyright © <script>
+                document.write(new Date().getFullYear())
+              </script> Minor Smart Industry Portfolio by <a href="/" target="_blank">Patrick Lutgens</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
+  <script src="./assets/js/plugins/countup.min.js"></script>
+  <!--  Plugin for Parallax, full documentation here: https://github.com/dixonandmoe/rellax -->
+  <script src="./assets/js/plugins/rellax.min.js"></script>
+  <!--  Plugin for TiltJS, full documentation here: https://gijsroge.github.io/tilt.js/ -->
+  <script src="./assets/js/plugins/tilt.min.js"></script>
+  <!--  Plugin for Selectpicker - ChoicesJS, full documentation here: https://github.com/jshjohnson/Choices -->
+  <script src="./assets/js/plugins/choices.min.js"></script>
+  <!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
+  <script src="./assets/js/plugins/parallax.min.js"></script>
+  <!-- Control Center for Soft UI Kit: parallax effects, scripts for the example pages etc -->
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+  <script src="./assets/js/soft-design-system.min.js?v=1.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+    if (document.getElementById('state1')) {
+      const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+      if (!countUp.error) {
+        countUp.start();
+      } else {
+        console.error(countUp.error);
+      }
+    }
+    if (document.getElementById('state2')) {
+      const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+      if (!countUp1.error) {
+        countUp1.start();
+      } else {
+        console.error(countUp1.error);
+      }
+    }
+    if (document.getElementById('state3')) {
+      const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+      if (!countUp2.error) {
+        countUp2.start();
+      } else {
+        console.error(countUp2.error);
+      };
+    }
+  </script>
+</body>
 
-
-
-</body></html>
+</html>
